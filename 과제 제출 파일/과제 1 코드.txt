@@ -1,0 +1,10 @@
+name = "박성훈"
+major = "전자공학부"
+grade = "3학년"
+goal = "교육을 성실히 듣고 이러저러한 것을 얻어가고 싶습니다"
+
+print(f"경북대학교 {major} {grade} {name}은 이번 SW융합교육을 통해")
+print(f"{goal}")
+
+print("경북대학교 {0} {1} {2}은 이번 SW융합교육을 통해". format(major, grade, name))
+print("{0}". format(goal))
